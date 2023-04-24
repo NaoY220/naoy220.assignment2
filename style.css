@@ -1,0 +1,856 @@
+/* === Typography === */
+
+body {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+#login p {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#bar a {
+    color: #b07070;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+#title h1 {
+    font-family: 'Pusab', arial;
+    font-size: 35px;
+    color: #b07070;
+}
+
+h2 {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+footer {
+    font-size: 18px;
+    font-style: italic;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer h2{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+footer p{
+    margin-left: 40px;
+}
+
+li {
+    margin-right: 15px;
+}
+
+#splash {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #000000;
+}
+
+#splash h1 {
+    font-size: 90px;
+    line-height: 70px;
+}
+
+#splash h2 {
+    font-size: 60px;
+    line-height: 40px;
+}
+
+#animallist a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 32px;
+    text-align: center;
+    line-height: 35px;
+
+    border: 3px solid #4a7250;
+}
+
+#cpQ a {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+}
+
+#articles p{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#readmore{
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#Asplash{
+    overflow: hidden;
+}
+
+#Asplash ul{
+    font-family: 'Gotu', sans-serif;
+
+    list-style: none;
+    font-size: 23px;
+    line-height: 23px;
+
+    text-align: center;
+    line-height: 40px;
+}
+
+#Asplash a{
+    color: #000000;
+    text-decoration: none;
+}
+
+#purpNgoal p{
+    font-family: 'Gotu', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#provide h2{
+    margin-top: 30px;
+}
+
+#titleNcontent{
+    margin-top: -20px;
+}
+
+#provide ul{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#iconForProv{
+    margin-top: -25px;
+    overflow: hidden;
+}
+
+#titleNcontent{
+    overflow: hidden;
+}
+
+#titlelist h1{
+    font-family: 'Gotu', sans-serif;
+    margin-left: 18px;
+    font-size: 38px;
+}
+
+#servicelist a{
+    margin-top: 15px;
+    color: #000000;
+}
+
+/* === Backgrounds === */
+
+header {
+    background-color: #b07070;
+}
+
+main {
+    background-color: #fbe7e8;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+#title {
+    background-color: #FFFFFF;
+}
+
+#bar {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #b07070;
+}
+
+#splash {
+    background-image: url("Home's first picture/pets-home.png");
+    background-size: cover;
+}
+
+#splash1 {
+    background-image: url("cat/Cat-Maye.png");
+    background-size: cover;
+}
+
+#splash2 {
+    background-image: url("dog/Dog-Tella.png");
+    background-size: cover;
+}
+
+#splash3 {
+    background-image: url("other animals/Parrot-Toto.png");
+    background-size: cover;
+}
+
+#splash4 {
+    background-image: url("other animals/chameleon-Reo.png");
+    background-size: cover;
+}
+
+#splash5 {
+    background-image: url("other animals/rabbit-Mon.png");
+    background-size: cover;
+}
+
+#text {
+    background-color: #729076;
+}
+
+#prepare {
+    background-image: url("pattern/pink-painted-wall-texture-background.png");
+    background-size: cover;
+}
+
+#article1 {
+    background-color: #729076;
+}
+
+#splash6{
+    background-image: url("other animals/article1.png");
+    background-size: cover;
+}
+
+#article2 {
+    background-color: #729076;
+}
+
+#splash7{
+    background-image: url("Home's first picture/article2.png");
+    background-size: cover;
+}
+
+#Asplash{
+    background-image: url("picForAbout/AboutTopPic.png");
+    background-size: cover;
+}
+
+#animalpics{
+    background-color: #FFFFFF;
+}
+
+#Asplash1{
+    background-image: url("other animals/Parakeet.Peter.png");
+    background-size: cover;
+}
+
+#Asplash2{
+    background-image: url("dog/dog.Don.png");
+    background-size: cover;
+}
+
+#Asplash3{
+    background-image: url("other animals/iguana.Ben.png");
+    background-size: cover;
+}
+
+#Asplash4{
+    background-image: url("cat/Cat.Gelly.png");
+    background-size: cover;
+}
+
+#Asplash5{
+    background-image: url("other animals/rabbit.Riko.png");
+    background-size: cover;
+}
+
+#purpose{
+    background-color: #729076;
+}
+
+#goal{
+    background-color: #eaaeae;
+}
+
+#Asplash6{
+    background-image: url("picForAbout/catNdog.png");
+    background-size: cover;
+}
+
+#Asplash7{
+    background-image: url("picForAbout/family.png");
+    background-size: cover;
+}
+
+#titlelist{
+    background-color: #eaaeae;
+    border-bottom: 5px solid #729076;
+    border-radius: 4px 20px;
+}
+
+#line{
+    background-color: #eaaeae;
+}
+
+/* === Box Model === */
+
+#splash {
+    height: 600px;
+}
+
+#bar {
+    height: 25px;
+    padding: 20px;
+    padding-top: 0%;
+    padding-bottom: 5px;
+}
+
+footer {
+    padding: 40px;
+    height: 200px;
+}
+
+article {
+    margin-bottom: 120px;
+}
+
+#bar a {
+    margin-right: 100px;
+}
+
+#animallist {
+    height: 450px;
+}
+
+#prepare {
+    height: 190px;
+}
+
+#articles{
+    height: 440px;
+}
+
+#article1{
+    height: 320px;
+}
+
+#splash6{
+    height: 320px;
+}
+
+#articlesentence1{
+    height: 320px;
+    overflow: hidden;
+}
+
+#articlesentence2{
+    height: 320px;
+    overflow: hidden;
+}
+
+#article2{
+    height: 320px;
+}
+
+#splash7{
+    height: 320px;
+}
+
+#Asplash{
+    height: 500px;
+}
+
+#animalpics{
+    height: 200px;
+}
+
+#purpNgoal p{
+    height: 250px;
+}
+
+#provide{
+    height: 230px;
+}
+
+#line{
+    height: 3px;
+}
+
+/* === Layout === */
+
+#container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container2 {
+    width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    padding-top: 125px;
+}
+
+/*hedder*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px 20px;
+    display: flex;
+}
+
+#title {
+    align-items: left;
+    margin-left: 20px;
+    margin-right: 71%;
+    margin-bottom: 20px;
+}
+
+#login {
+    margin-top: 20px;
+    position: fixed;
+    text-align: left;
+    right: 10px;
+    top: 0px;
+}
+
+#login p {
+    float: left;
+}
+
+#bar {
+    position: fixed;
+    top: 103px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/*body*/
+#splash {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#animallist {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 50% 50%;
+    border: 30px solid #fbe7e8;
+}
+
+
+#splash1 {
+    border: 9px solid #eaaeae;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#splash2 {
+    border: 9px solid #eaaeae;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#splash3 {
+    border: 9px solid #eaaeae;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+#splash4 {
+    border: 9px solid #eaaeae;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#splash5 {
+    border: 9px solid #eaaeae;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#text {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+    height: 95%;
+    overflow: hidden;
+}
+
+#prepare {
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#cpQ {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#cpQ a {
+    border: 3px solid #000000;
+    background-color: #FFFFFF;
+    border-radius: 80px;
+    padding: 12px;
+}
+
+#articles{
+    
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 22.5% 22.5% 22.5% 22.5% 10%;
+}
+
+#articles h2{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+#article1 {
+    margin-left: 20px;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    border: 3px solid #000000;
+}
+
+#splash6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#article2 {
+    margin-left: 20px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    border: 3px solid #000000;
+}
+
+#splash7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#articlesentence1{
+    display: grid;
+    grid-template-rows: 50px 70% 15%;
+
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+#articlesentence2{
+    display: grid;
+    grid-template-rows: 50px 70% 15%;
+
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+#minititle{
+    overflow: hidden;
+}
+
+#contents{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+#readmore{
+    border: 3px solid #000000;
+    background-color: #FFFFFF;
+    border-radius: 80px;
+
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+#otherarticle {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+}
+
+#Asplash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#animalpics{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+#Asplash1{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+#Asplash2{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+#Asplash3{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+#Asplash4{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+#Asplash5{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#purpNgoal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0px 4px 4px #729076, 0px -4px 4px #b07070;
+}
+
+#purpose p{
+    display: flex;
+    align-items: center;
+}
+
+#goal p{
+    display: flex;
+    align-items: center;
+}
+
+#provide{
+    display: grid;
+    grid-template-columns: 390px auto;
+}
+
+#provide h2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#iconForProv{
+    display: flex;
+    justify-content: center;
+}
+
+#model{
+    border: 2px solid #eaaeae;
+    border-radius: 80px;
+    background-color: #fbe7e8;
+    box-shadow: 4px 4px 4px #FFFFFF, -4px -4px 4px #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+
+    height: 120px;
+}
+
+#petlist{
+    display: grid;
+    grid-template-columns: 255px 255px 255px 255px 255px 8% 2%;
+
+    margin-bottom: 25px;
+}
+
+#titlelist{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    padding-right: 100px;
+}
+
+#petlist h2{
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+#petlist p{
+    text-align: center;
+    margin-top: -5px;
+}
+
+#itemlist p{
+    text-align: center;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+#itemlist{
+    display: grid;
+    grid-template-columns: 255px 255px 255px 255px 255px 8% 2%;
+
+    margin-bottom: 25px;
+}
+
+#itemlist h2{
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+#servicelist{
+    display: grid;
+    grid-template-columns: 416.66px 416.66px 416.66px 10% 2%;
+
+    padding-bottom: 25px;
+}
+
+#servicelist h2{
+   text-align: center;
+}
+
+.position{
+    grid-column-start: 1;
+}
+
+#listpics{
+    border: 12px solid #ffffff;
+    width: 220px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    box-shadow: 4px 4px 4px #eaaeae, -4px -4px 4px #eaaeae;
+}
+
+#otherlist {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#petlist #otherlist img{
+    border: 4px solid #4a7250;
+    border-radius: 100%;
+}
+
+#itemlist #otherlist img{
+    border: 4px solid #4a7250;
+    border-radius: 100%;
+}
+
+#servicelist #listpics{
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+#line{
+    grid-column-start: 1;
+    grid-column-end: 8;
+
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*-----footer-----*/
+
+footer{
+    display: grid;
+    grid-template-columns: 390px 390px 100px 380px;
+}
+
+#contact{
+    margin-right: 30px;
+}
+
+#openhour{
+    margin-left: 30px;
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+}
+
+#right{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    margin-left: 10px;
+    
+    display: flex;
+    align-items: center;
+
+    line-height: 20px;
+
+    height: 200px;
+    text-align: center
+}
+
+#right i{
+    color: #fbe7e8;
+    font-size: 50px;
+}
