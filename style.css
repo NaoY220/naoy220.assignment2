@@ -36,12 +36,12 @@ footer {
     text-align: center;
 }
 
-footer h2{
+footer h2 {
     text-decoration: underline;
     margin-bottom: 20px;
 }
 
-footer p{
+footer p {
     margin-left: 40px;
 }
 
@@ -85,25 +85,25 @@ li {
     font-size: 25px;
 }
 
-#articles p{
+#articles p {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 
-#readmore{
+#readmore {
     text-align: center;
     text-decoration: none;
     color: #000000;
     margin-bottom: 10px;
 }
 
-#Asplash{
+#Asplash {
     overflow: hidden;
 }
 
-#Asplash ul{
+#Asplash ul {
     font-family: 'Gotu', sans-serif;
 
     list-style: none;
@@ -114,12 +114,12 @@ li {
     line-height: 40px;
 }
 
-#Asplash a{
+#Asplash a {
     color: #000000;
     text-decoration: none;
 }
 
-#purpNgoal p{
+#purpNgoal p {
     font-family: 'Gotu', sans-serif;
     font-size: 20px;
     line-height: 25px;
@@ -129,35 +129,35 @@ li {
     overflow: hidden;
 }
 
-#provide h2{
+#provide h2 {
     margin-top: 30px;
 }
 
-#titleNcontent{
+#titleNcontent {
     margin-top: -20px;
 }
 
-#provide ul{
+#provide ul {
     font-size: 20px;
     line-height: 25px;
 }
 
-#iconForProv{
+#iconForProv {
     margin-top: -25px;
     overflow: hidden;
 }
 
-#titleNcontent{
+#titleNcontent {
     overflow: hidden;
 }
 
-#titlelist h1{
+#titlelist h1 {
     font-family: 'Gotu', sans-serif;
     margin-left: 18px;
     font-size: 38px;
 }
 
-#servicelist a{
+#servicelist a {
     margin-top: 15px;
     color: #000000;
 }
@@ -231,7 +231,7 @@ footer {
     background-color: #729076;
 }
 
-#splash6{
+#splash6 {
     background-image: url("other animals/article1.png");
     background-size: cover;
 }
@@ -240,76 +240,76 @@ footer {
     background-color: #729076;
 }
 
-#splash7{
+#splash7 {
     background-image: url("Home's first picture/article2.png");
     background-size: cover;
 }
 
-#Asplash{
+#Asplash {
     background-image: url("picForAbout/AboutTopPic.png");
     background-size: cover;
 }
 
-#animalpics{
+#animalpics {
     background-color: #FFFFFF;
 }
 
-#Asplash1{
+#Asplash1 {
     background-image: url("other animals/Parakeet.Peter.png");
     background-size: cover;
 }
 
-#Asplash2{
+#Asplash2 {
     background-image: url("dog/dog.Don.png");
     background-size: cover;
 }
 
-#Asplash3{
+#Asplash3 {
     background-image: url("other animals/iguana.Ben.png");
     background-size: cover;
 }
 
-#Asplash4{
+#Asplash4 {
     background-image: url("cat/Cat.Gelly.png");
     background-size: cover;
 }
 
-#Asplash5{
+#Asplash5 {
     background-image: url("other animals/rabbit.Riko.png");
     background-size: cover;
 }
 
-#purpose{
+#purpose {
     background-color: #729076;
 }
 
-#goal{
+#goal {
     background-color: #eaaeae;
 }
 
-#Asplash6{
+#Asplash6 {
     background-image: url("picForAbout/catNdog.png");
     background-size: cover;
 }
 
-#Asplash7{
+#Asplash7 {
     background-image: url("picForAbout/family.png");
     background-size: cover;
 }
 
-#titlelist{
+#titlelist {
     background-color: #eaaeae;
     border-bottom: 5px solid #729076;
     border-radius: 4px 20px;
 }
 
-#line{
+#line {
     background-color: #eaaeae;
 }
 
 /* === Box Model === */
 
-#container{
+#container {
     width: 100%;
 }
 
@@ -345,53 +345,53 @@ article {
     height: 190px;
 }
 
-#articles{
+#articles {
     height: 440px;
 }
 
-#article1{
+#article1 {
     height: 320px;
 }
 
-#splash6{
+#splash6 {
     height: 320px;
 }
 
-#articlesentence1{
-    height: 320px;
-    overflow: hidden;
-}
-
-#articlesentence2{
+#articlesentence1 {
     height: 320px;
     overflow: hidden;
 }
 
-#article2{
+#articlesentence2 {
+    height: 320px;
+    overflow: hidden;
+}
+
+#article2 {
     height: 320px;
 }
 
-#splash7{
+#splash7 {
     height: 320px;
 }
 
-#Asplash{
+#Asplash {
     height: 500px;
 }
 
-#animalpics{
+#animalpics {
     height: 200px;
 }
 
-#purpNgoal p{
+#purpNgoal p {
     height: 250px;
 }
 
-#provide{
+#provide {
     height: 230px;
 }
 
-#line{
+#line {
     height: 3px;
 }
 
@@ -540,15 +540,15 @@ header {
     padding: 12px;
 }
 
-#articles{
-    
+#articles {
+
     display: flex;
     align-items: center;
     display: grid;
     grid-template-columns: 22.5% 22.5% 22.5% 22.5% 10%;
 }
 
-#articles h2{
+#articles h2 {
     grid-column-start: 1;
     grid-column-end: 6;
 }
@@ -586,7 +586,7 @@ header {
     grid-column-end: 2;
 }
 
-#articlesentence1{
+#articlesentence1 {
     display: grid;
     grid-template-rows: 50px 70% 15%;
 
@@ -594,7 +594,7 @@ header {
     margin-right: 18px;
 }
 
-#articlesentence2{
+#articlesentence2 {
     display: grid;
     grid-template-rows: 50px 70% 15%;
 
@@ -602,16 +602,16 @@ header {
     margin-right: 18px;
 }
 
-#minititle{
+#minititle {
     overflow: hidden;
 }
 
-#contents{
+#contents {
     overflow: hidden;
     margin-bottom: 5px;
 }
 
-#readmore{
+#readmore {
     border: 3px solid #000000;
     background-color: #FFFFFF;
     border-radius: 80px;
@@ -637,81 +637,83 @@ header {
     justify-content: center;
 }
 
-#Asplash{
+#Asplash {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#animalpics{
+#animalpics {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-#Asplash1{
+#Asplash1 {
     margin-top: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
 }
 
-#Asplash2{
+#Asplash2 {
     margin-top: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
 }
 
-#Asplash3{
+#Asplash3 {
     margin-top: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
 }
 
-#Asplash4{
+#Asplash4 {
     margin-top: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
 }
 
-#Asplash5{
+#Asplash5 {
     margin-top: 5px;
     margin-bottom: 10px;
 }
 
-#purpNgoal{
+#purpNgoal {
     display: grid;
     grid-template-columns: 50% 50%;
     box-shadow: 0px 4px 4px #729076, 0px -4px 4px #b07070;
 }
 
-#purpose p{
+#purpose p {
     display: flex;
     align-items: center;
 }
 
-#goal p{
+#goal p {
     display: flex;
     align-items: center;
 }
 
-#provide{
+#provide {
     display: grid;
     grid-template-columns: 390px auto;
 }
 
-#provide h2{
+#provide h2 {
     grid-column-start: 1;
     grid-column-end: 3;
+    margin-top: 39px;
 }
 
-#iconForProv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 100px;
+
+#iconForProv {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+
     overflow-x: scroll;
 }
 
-#model{
+
+#model {
     border: 2px solid #eaaeae;
     border-radius: 80px;
     background-color: #fbe7e8;
@@ -724,19 +726,19 @@ header {
     height: 120px;
 }
 
-#petlist{
+#petlist {
     display: grid;
     grid-template-columns: 17.4% 17.4% 17.4% 17.4% 17.4% 10% 3%;
 
     margin-bottom: 25px;
 }
 
-#titlelist{
+#titlelist {
     grid-column-start: 1;
     grid-column-end: 8;
 }
 
-#inside{
+#inside {
     grid-column-start: 1;
     grid-column-end: 8;
 
@@ -746,43 +748,43 @@ header {
     overflow-x: scroll;
 }
 
-#petlist h2{
+#petlist h2 {
     grid-column-start: 1;
     grid-column-end: 8;
 }
 
-#petlist p{
+#petlist p {
     text-align: center;
     margin-top: -5px;
 
 }
 
-#itemlist p{
+#itemlist p {
     text-align: center;
     margin-top: -5px;
     margin-left: 5px;
 }
 
-#itemlist{
+#itemlist {
     display: grid;
     grid-template-columns: 17.4% 17.4% 17.4% 17.4% 17.4% 10% 3%;
 
     margin-bottom: 25px;
 }
 
-#itemlist h2{
+#itemlist h2 {
     grid-column-start: 1;
     grid-column-end: 8;
 }
 
-#servicelist{
+#servicelist {
     display: grid;
-    grid-template-columns: 33.33%  33.33%  33.33%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
 
     padding-bottom: 25px;
 }
 
-#inside2{
+#inside2 {
     grid-column-start: 1;
     grid-column-end: 4;
 
@@ -791,15 +793,15 @@ header {
     overflow-x: scroll;
 }
 
-#servicelist h2{
-   text-align: center;
+#servicelist h2 {
+    text-align: center;
 }
 
-.position{
+.position {
     grid-column-start: 1;
 }
 
-#listpics{
+#listpics {
     border: 12px solid #ffffff;
     width: 220px;
     margin-left: 50px;
@@ -810,9 +812,9 @@ header {
     box-shadow: 4px 4px 4px #eaaeae, -4px -4px 4px #eaaeae;
 }
 
-#listpics2{
+#listpics2 {
     border: 12px solid #ffffff;
-    
+
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 10px;
@@ -824,7 +826,7 @@ header {
 #otherlist {
     grid-column-start: 6;
     grid-column-end: 7;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -832,22 +834,22 @@ header {
     margin-left: 50px;
 }
 
-#petlist #otherlist img{
+#petlist #otherlist img {
     border: 4px solid #4a7250;
     border-radius: 100%;
 }
 
-#itemlist #otherlist img{
+#itemlist #otherlist img {
     border: 4px solid #4a7250;
     border-radius: 100%;
 }
 
-#servicelist #listpics{
+#servicelist #listpics {
     margin-left: 100px;
     margin-bottom: 15px;
 }
 
-#line{
+#line {
     grid-column-start: 1;
     grid-column-end: 8;
 
@@ -858,28 +860,28 @@ header {
 
 /*-----footer-----*/
 
-footer{
+footer {
     display: grid;
     grid-template-columns: 390px 390px 100px 380px;
 
     overflow-x: scroll;
 }
 
-#contact{
+#contact {
     margin-right: 30px;
 }
 
-#openhour{
+#openhour {
     margin-left: 30px;
     border-left: 2px solid #FFFFFF;
     border-right: 2px solid #FFFFFF;
 }
 
-#right{
+#right {
     grid-column-start: 4;
     grid-column-end: 5;
     margin-left: 10px;
-    
+
     display: flex;
     align-items: center;
 
@@ -889,8 +891,7 @@ footer{
     text-align: center;
 }
 
-#right i{
+#right i {
     color: #fbe7e8;
     font-size: 50px;
 }
-
