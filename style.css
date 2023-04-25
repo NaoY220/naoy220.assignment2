@@ -394,16 +394,10 @@ article {
 /* === Layout === */
 
 #container {
-    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#container2 {
-    width: 1420px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 body {
     padding-top: 125px;
